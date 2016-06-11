@@ -1,0 +1,137 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFE7C2">
+
+    <ScrollView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+        <LinearLayout
+            android:layout_height="fill_parent"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+
+    <com.andexert.library.RippleView
+        android:id="@+id/b1"
+        android:layout_width="165dp"
+        android:layout_marginTop="90dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="60dp"
+        app:rv_alpha="150"
+        app:rv_framerate="30"
+        app:rv_rippleDuration="300"
+        app:rv_color="#ffffff"
+        app:rv_centered="false"
+        app:rv_type="simpleRipple"
+        app:rv_zoom="true"
+        app:rv_zoomDuration="150"
+        app:rv_zoomScale="1.20">
+
+
+        <Button
+            android:text="Student"
+            android:layout_width="180dp"
+            android:layout_height="60dp"
+            android:typeface="sans"
+            android:background="@drawable/buttonshape"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#FFFFFF"
+            android:textSize="28sp"
+            />
+    </com.andexert.library.RippleView>
+
+    <com.andexert.library.RippleView
+        android:id="@+id/b2"
+        android:layout_width="165dp"
+        android:layout_marginTop="35dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="60dp"
+        app:rv_alpha="150"
+        app:rv_framerate="30"
+        app:rv_rippleDuration="300"
+        app:rv_color="#ffffff"
+        app:rv_centered="false"
+        app:rv_type="simpleRipple"
+        app:rv_zoom="true"
+        app:rv_zoomDuration="150"
+        app:rv_zoomScale="1.20">
+
+
+        <Button
+            android:text="Targeted_Personnel"
+            android:layout_width="180dp"
+            android:layout_height="60dp"
+            android:typeface="sans"
+            android:background="@drawable/buttonshape"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            />
+    </com.andexert.library.RippleView>
+
+
+    <com.andexert.library.RippleView
+        android:id="@+id/viewsd"
+        android:layout_width="165dp"
+        android:layout_marginTop="35dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="60dp"
+        app:rv_alpha="150"
+        app:rv_framerate="30"
+        app:rv_rippleDuration="300"
+        app:rv_color="#ffffff"
+        app:rv_centered="false"
+        app:rv_type="simpleRipple"
+        app:rv_zoom="true"
+        app:rv_zoomDuration="150"
+        app:rv_zoomScale="1.20">
+
+
+        <Button
+            android:text="Access CV"
+            android:layout_width="180dp"
+            android:layout_height="60dp"
+            android:typeface="sans"
+            android:background="@drawable/buttonshape_orange"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            />
+    </com.andexert.library.RippleView>
+
+
+            <com.andexert.library.RippleView
+                android:id="@+id/gdrive"
+                android:layout_width="165dp"
+                android:layout_marginTop="35dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="60dp"
+                app:rv_alpha="150"
+                app:rv_framerate="30"
+                app:rv_rippleDuration="300"
+                app:rv_color="#ffffff"
+                app:rv_centered="false"
+                app:rv_type="simpleRipple"
+                app:rv_zoom="true"
+                app:rv_zoomDuration="150"
+                app:rv_zoomScale="1.20">
+
+
+                <Button
+                    android:text="Access Cloud"
+                    android:layout_width="180dp"
+                    android:layout_height="60dp"
+                    android:typeface="sans"
+                    android:background="@drawable/buttonshape_orange"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="#FFFFFF"
+                    android:textSize="25sp"
+                    />
+            </com.andexert.library.RippleView>
+
+</LinearLayout>
+    </ScrollView>
+</LinearLayout>

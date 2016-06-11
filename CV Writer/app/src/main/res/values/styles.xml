@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary"> #FF9800</item>
+        <item name="colorPrimaryDark">#ffd27f </item>
+        <item name="android:navigationBarColor">#FF9800</item>
+    </style>
+
+   <!--
+    <style name="CoolButton" parent="android:style/Widget.Material.Button">
+        <item name="android:background">#126798</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:layout_marginTop">8dp</item>
+    </style>
+   -->
+</resources>

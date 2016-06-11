@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CV Writer</string>
+    <string name="exitOption">Exit</string>
+    <string name="clearOption">Clear</string>
+    <string name="title_activity_login">LoginActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_template_selection">CV writer</string>
+    <string name="title_activity_template_two">Targeted User</string>
+    <string name="title_activity_template_one">Student</string>
+
+
+</resources>

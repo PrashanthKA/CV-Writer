@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#FFCC80">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="153dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/icon"
+            android:paddingTop="100dp"
+            android:layout_weight="0.37" />
+
+        <TextView
+
+            android:layout_width="355dp"
+            android:layout_height="wrap_content"
+            android:text="Loading...."
+            tools:ignore="MissingPrefix"
+            android:id="@+id/textView"
+            android:paddingLeft="67dp"
+            android:layout_weight="0.08"
+            fontPath="fonts/KrinkesDecorPERSONAL.ttf"
+            android:textColor="#09a476"
+            android:textSize="@dimen/abc_text_size_display_3_material" />
+    </LinearLayout>
+</LinearLayout>
